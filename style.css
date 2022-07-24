@@ -1,0 +1,148 @@
+body{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Poppins', sans-serif;}
+
+h4{
+    color: blue;
+}
+.heading{
+   background-image: url(images/donation13.jpg);
+   background-repeat: no-repeat;
+   color: azure;
+   background-size: 100%;
+   padding: 10%;
+   background-blend-mode: darken;
+   text-align: center;
+}
+
+
+h1{
+    font-size: 80px;
+}
+
+h2{
+    font-size: 50px;
+    
+}
+
+
+p{
+    font-size: 20px;
+}
+
+.donate-btn{
+    padding: 15px 30px;
+    
+    background-color: coral;
+    font-size: 20px;
+    border-color: coral;
+}
+
+.your-donation{
+    text-align: center;
+    padding: 10%;
+
+}
+
+.our-plan{
+   
+    padding: 10%;
+}
+
+.plans-1{
+    background-color:#4f9da636;
+    padding: 22px 25px;
+     margin: 2%; 
+} 
+
+
+.plans-2{
+    background-color:#ff59591d;
+    padding: 22px 25px;
+     margin: 2%; 
+}
+
+.plans-3{
+    background-color:#fff4d681;
+    padding: 22px 25px;
+     margin: 2%; 
+}
+.plans-details{
+    display: flex;
+    
+}
+
+.donation-amount{
+    display: flex;
+    
+
+}
+
+.amount-1{
+    background-color: rgba(55, 53, 53, 0.043);
+    padding: 10px 10px;
+    margin: 2%;
+    border-radius: 5%;
+   
+}
+
+.amount-2{
+    background-color: rgba(55, 53, 53, 0.043);
+    padding: 10px 10px;
+    margin: 2%;
+    border-radius: 5%;
+}
+
+.amount-3{
+    background-color: rgba(248, 14, 14, 0.164);
+    padding: 10px 10px;
+     margin: 2%;
+     color:red ;
+     border-radius: 5%;
+     border: 3px solid rgba(247, 1, 1, 0.311);
+}
+
+.amount-4{
+    background-color: rgba(55, 53, 53, 0.043);
+    padding: 10px 10px;
+     margin: 2%;
+     border-radius: 5%;
+}
+
+.amount-5{
+    background-color: rgba(55, 53, 53, 0.043);
+    padding: 10px 10px;
+     margin: 2%;
+     border-radius: 5%;
+}
+
+.others{
+    border-bottom: 2px solid rgba(149, 148, 148, 0.527);
+    color: rgba(149, 148, 148, 0.55);
+}
+.donate-btn-2{
+    
+    margin-top: 3%;
+    background-color: coral;
+    font-size: 20px;
+    border-color: coral;
+   
+    padding: 15px 30px;
+}
+.update{
+    padding: 10%;
+    text-align: center;
+    margin: 0 11%;
+}
+.contacts{
+    background-color: #FFF4D6;
+    padding: 5% 8%;
+    font-size: 20px;
+}
+
+.update-btn{
+    background-color: coral;
+    color: azure;
+    margin-top: 3%;
+
+}
