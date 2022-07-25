@@ -2,8 +2,8 @@ body{
     font-family: 'EB Garamond', serif;
     font-family: 'Poppins', sans-serif;}
 
-h4{
-    color: blue;
+h3{
+font-size: 35px;
 }
 .heading{
    background-image: url(images/donation13.jpg);
@@ -32,7 +32,7 @@ p{
 
 .donate-btn{
     padding: 15px 30px;
-    
+    cursor: pointer;
     background-color: coral;
     font-size: 20px;
     border-color: coral;
@@ -40,13 +40,14 @@ p{
 
 .your-donation{
     text-align: center;
-    padding: 10%;
+    padding: 3% 10%;
 
 }
 
 .our-plan{
    
-    padding: 10%;
+    padding: 3% 10%;
+    text-align: center;
 }
 
 .plans-1{
@@ -80,7 +81,7 @@ p{
 
 .amount-1{
     background-color: rgba(55, 53, 53, 0.043);
-    padding: 10px 10px;
+    padding: 10px 35px;
     margin: 2%;
     border-radius: 5%;
    
@@ -88,15 +89,15 @@ p{
 
 .amount-2{
     background-color: rgba(55, 53, 53, 0.043);
-    padding: 10px 10px;
+    padding: 10px 35px;
     margin: 2%;
     border-radius: 5%;
 }
 
 .amount-3{
     background-color: rgba(248, 14, 14, 0.164);
-    padding: 10px 10px;
-     margin: 2%;
+    padding: 10px 35px;
+    margin: 2%;
      color:red ;
      border-radius: 5%;
      border: 3px solid rgba(247, 1, 1, 0.311);
@@ -104,24 +105,27 @@ p{
 
 .amount-4{
     background-color: rgba(55, 53, 53, 0.043);
-    padding: 10px 10px;
-     margin: 2%;
+    padding: 10px 35px;
+    margin: 2%;
      border-radius: 5%;
 }
 
 .amount-5{
     background-color: rgba(55, 53, 53, 0.043);
-    padding: 10px 10px;
-     margin: 2%;
+    padding: 10px 35px;
+    margin: 2%;
      border-radius: 5%;
 }
 
 .others{
+    border: none;
     border-bottom: 2px solid rgba(149, 148, 148, 0.527);
     color: rgba(149, 148, 148, 0.55);
+    width: 100%;
+    font-size: 20px;
 }
 .donate-btn-2{
-    
+    cursor: pointer;
     margin-top: 3%;
     background-color: coral;
     font-size: 20px;
@@ -136,13 +140,88 @@ p{
 }
 .contacts{
     background-color: #FFF4D6;
-    padding: 5% 8%;
+    padding: 11% 8%;
     font-size: 20px;
 }
 
 .update-btn{
     background-color: coral;
     color: azure;
-    margin-top: 3%;
+    margin: 4px 0;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 4px
 
+}
+.email-space{
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
+    margin: -5px;
+    color: aqua;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    color: whitesmoke;
+    margin-top: 5px;
+    position: relative;
+
+}
+.footer-decoration{
+    font-family: fantasy;
+    color: coral;
+}
+
+.your-thought{
+    text-align: center;
+    padding:4% 10%;
+    display: flex;
+    margin: 0;
+}
+.thought{
+    padding:30px;
+    font-size: 20px;
+
+    border: none;
+    background-color: rgba(99, 109, 106, 0.174);
+    color: black;
+
+    
+
+}
+
+.thoughts{
+    border: 1px solid rgba(128, 128, 128, 0.279);
+    border-radius: 4px;
+}
+.btn-thought{
+    background-color: coral;
+    color: azure;
+    margin: 4px 0;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 4px 
+}
+.ways{
+    padding: 1% 5%;
+    text-align: center;
+}
+.front-liner{
+    display: flex;
+     padding:2%;
+    text-align: center;
+    background-color: rgba(144, 116, 116, 0.082);
+   margin: 5% 10%;
+    
+}
+
+.front-liner img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
